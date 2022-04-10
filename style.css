@@ -1,0 +1,321 @@
+/* index page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: orange;
+  background-size: cover;
+  background-blend-mode: lighten;
+  margin: auto;
+  padding: 15px;
+}
+.header {
+  position: sticky;
+}
+.heading {
+  margin: 20px 5px;
+  color: rgb(10, 133, 233);
+}
+.logo {
+  display: flex;
+  border-radius: 330px;
+  width: 50%;
+}
+.logo img {
+  width: 35%;
+  border-radius: 200px;
+}
+.logo img:hover {
+  transform: scale(1.3);
+}
+.navbar {
+  display: flex;
+  margin: 20px 0;
+  height: 90px;
+  position: sticky;
+  top: 0;
+}
+.navlist {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  position: sticky;
+}
+.navlist li {
+  list-style: none;
+  padding: 4px 20px;
+}
+.navlist li a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+  margin: auto;
+}
+.ls {
+  font-size: 12px;
+  display: inline-block;
+  font-style: oblique;
+  color: aqua;
+}
+.rightbar {
+  display: flex;
+}
+
+.form {
+  width: 160px;
+  height: 30px;
+  border-radius: 1.625rem;
+  margin: 30px;
+  margin-left: 325px;
+  padding-left: 5px;
+}
+.butnn {
+  width: 80px;
+  height: 26px;
+  border: 2px solid grey;
+  color: white;
+  background-color: rgb(10, 133, 233);
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  margin: 30px 10px;
+}
+.first {
+  margin: auto;
+}
+.firstsection {
+  margin-top: 10px;
+  margin: auto;
+}
+.firsthalf {
+  width: 40%;
+  margin-top: 240px;
+  margin-left: 150px;
+}
+.p {
+  color: rgb(241, 242, 247);
+  padding: 15px 10px;
+}
+.para {
+  color: black;
+  padding: 15px 10px;
+}
+.parag {
+  color: white;
+  padding-top: 30px;
+  padding: 5px 40px;
+}
+.secondhalf {
+  display: flex;
+  justify-content: cente;
+  margin-left: 800px;
+  margin-top: -160px;
+}
+.secondhalf img {
+  height: 200px;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+.secondhalf img:hover {
+  transform: scale(1.2);
+}
+.firsthalff {
+  width: 40%;
+  margin-left: 50%;
+  margin-top: 100px;
+}
+.secondhalff {
+  width: 30%;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+.secondhalff img {
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+.secondhalff:hover {
+  transform: scale(1.4);
+}
+.third {
+  margin-top: 50px;
+}
+.firsthalfff {
+  margin-left: 150px;
+  margin-top: -180px;
+}
+.secondhalfff {
+  margin-top: 100px;
+  margin-left: 60%;
+}
+.secondhalfff img {
+  border: 1px solid white;
+  border-radius: 1rem;
+  width: 70%;
+  height: 70%;
+}
+.secondhalfff img:hover {
+  transform: scale(1.4);
+}
+.about {
+  color: powderblue;
+  padding: 20px;
+  margin: 150px 60px;
+}
+.uss {
+  margin: auto;
+  color: black;
+}
+
+.contact {
+  margin: auto;
+  padding: 5px;
+}
+.us {
+  margin-left: 43%;
+  margin-bottom: 50px;
+  color: rgb(10, 133, 233);
+}
+.lab {
+  color: white;
+}
+.phone {
+  margin-left: 40%;
+  color: white;
+}
+.num {
+  margin: auto;
+  color: black;
+  margin-left: 45%;
+}
+.num a {
+  margin: auto;
+  color: black;
+}
+.sign {
+  width: 200px;
+  height: 180px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 400px;
+  margin-top: 60px;
+}
+.fsign {
+  margin: auto;
+}
+.ssign {
+  color: rgb(10, 133, 233);
+  padding: 20px;
+}
+.lable {
+  margin: auto;
+  color:black;
+}
+
+.for {
+  width: 200px;
+  height: 34px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 4rem;
+  padding-left: 4px;
+  background-color: rgb(10, 133, 233);
+  color: black;
+}
+.foot {
+  width: 100%;
+  height: 5%;
+  border: 2px solid grey;
+  font-style: initial;
+  padding-left: 39%;
+  background-color: white;
+}
+.loginmain{
+  width:40%;
+  padding:50px;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 10%;
+}
+/* login page */
+.home{
+  color:black;
+  font-size: medium;
+  text-decoration: none;
+}
+/* userpage */
+.user{
+  margin-left: 10%;
+  padding: 5%;
+
+}
+.table{
+  padding:3px;
+  
+}
+.stores{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: oblique;
+margin-bottom:2% ;
+}
+.addstore{
+  text-decoration: none;
+  background-color: black;
+  color:white;
+  border-radius: 0.5rem;
+  margin-bottom: 3%;
+  width: 60px;
+  height: 10px;
+  padding: 2px;
+}
+.rows{
+  margin-top: 20px;
+  
+}
+.row{
+  margin-top: 5px;
+  padding: 9px;
+}
+.books{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  border-radius: 0.3rem;
+  font-size: medium;
+  background-color: green;
+  color: white;
+}
+.del_btn{
+  text-decoration: none;
+  margin-left: 5px;
+  background-color: red;
+  border-radius: 0.3rem;
+
+  color: white;
+  }
+
+  /* add store */
+  .storetitle{
+    color:rgb(10, 133, 233);
+    width:max-content
+  }
+  
+.stores{
+  width:max-content;
+  color:rgb(10, 133, 233);
+}
+.store{
+  margin-left: 60%;
+}
+.store img{
+  width: 60%;
+  height: 50%;
+}
+/* add books  */
+.addbooks{
+  margin-left: 40%;
+}
